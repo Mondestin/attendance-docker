@@ -101,3 +101,4 @@ curl -H "Authorization: Bearer YOUR_TOKEN" http://localhost:8001/stripe/usage
 - `GET /stripe/success` - Page de succès après paiement
 - `POST /stripe/webhook` - Webhook Stripe pour les événements
 - `GET /stripe/usage` - Suivi de l'utilisation du compte 
+
