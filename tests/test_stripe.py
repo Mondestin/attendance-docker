@@ -20,7 +20,7 @@ stripe.api_key = config['STRIPE_SK']
 # Test case to check if stripe_checkout endpoint redirects successfully
 def test_stripe_checkout_redirect():
     response = client.get("/stripe/checkout")
-    assert response.status_code == 404  # Redirect status code
+    assert response.status_code == 200  # Redirect status code
 
 # Test case for the success endpoint
 def test_stripe_success():
